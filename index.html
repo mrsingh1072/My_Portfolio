@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saurabh Kumar - Full Stack Developer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <div class="logo">Saurabh Kumar.</div>
+        <nav>
+          <ul>
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Mobile Dropdown Menu (hidden by default) -->
+        <div class="mobile-nav-dropdown" id="mobile-nav-dropdown" style="display: none;">
+          <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="right-section">
+          <a href="#contact" class="btn btn-primary lets-talk">Let's Talk</a>
+          <button class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+          </button>
+          <!-- <div class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+          </div> -->
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <h1>Hi, I'm <span>Saurabh Kumar</span></h1>
+            <h2>Full Stack Developer & AI Enthusiast</h2>
+            <p>
+              Computer Science student at SRM University with a passion for
+              building innovative web applications and AI-powered solutions. I
+              specialize in React, Node.js, and modern full-stack development,
+              with experience in creating scalable applications that make a real
+              impact.
+            </p>
+            <div class="hero-buttons">
+              <a href="/assets/Resume.pdf" class="btn btn-primary hire-me" target="_blank" rel="noopener">Resume</a>
+              <a href="#portfolio" class="btn btn-outline see-projects">See Projects</a>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/saurabh-singh-959b48323"
+                class="social-link"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://github.com/mrsingh1072"
+                class="social-link"
+                target="_blank"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a 
+                href="https://x.com/Mrsingh1072" 
+                class="social-link"
+                target="_blank">
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/mr.singh1072/"
+                class="social-link"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="/assets/profile.jpg" alt="Saurabh Kumar" class="profile-image" />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="container">
+          <h2>About <span>Me</span></h2>
+          <div class="about-container">
+            <div class="about-content">
+              <p class="about-text">
+                Hello! I'm Saurabh Kumar, a passionate Computer Science student at
+                SRM University, Guntur, pursuing my Bachelor's degree (Expected
+                May 2027). I'm a dedicated Full Stack Developer with a strong
+                foundation in modern web technologies and AI-powered
+                applications.
+              </p>
+              <p class="about-text">
+                With hands-on experience in building real-world web applications
+                using Flask, JavaScript, and Python, I've successfully developed projects
+                that solve practical problems. My expertise spans from frontend development
+                with HTML, CSS, and responsive design to backend systems with Flask and JavaScript,
+                along with data handling using Python. I'm particularly passionate about integrating 
+                AI and data visualization capabilities into applications, as demonstrated through
+                my work on AI-powered herbal plant identification, real-time route tracking,
+                dynamic healthcare appointment systems, and stock market data analytics.
+              </p>
+              <p class="about-text">
+                Currently, I'm expanding my skillset through internships and continuous learning,
+                actively working as a Web Development Intern at Edunet Foundation, where I’m building
+                practical web solutions while enhancing my proficiency in frontend and backend technologies.
+                Alongside, I continue to explore AI integration in web applications, combining traditional development 
+                with modern, intelligent systems.
+              </p>
+              <div class="skills">
+                <h3>Technical Skills</h3>
+                <div class="skill-tags">
+                  <span class="skill-tag">C</span>
+                  <span class="skill-tag">C++</span>
+                  <span class="skill-tag">Python</span>
+                  <span class="skill-tag">JavaScript</span>
+                  <span class="skill-tag">HTML/CSS</span>
+                  <span class="skill-tag">React.js</span>
+                  <span class="skill-tag">Node.js</span>
+                  <span class="skill-tag">Express.js</span>
+                  <span class="skill-tag">Flask</span>
+                  <span class="skill-tag">MongoDB</span>
+                  <span class="skill-tag">MySQL</span>
+                  <span class="skill-tag">Git</span>
+                  <span class="skill-tag">Postman</span>
+                  <span class="skill-tag">Socket.IO</span>
+                  <span class="skill-tag">RESTful APIs</span>
+                  <span class="skill-tag">Tailwind CSS</span>
+                  <span class="skill-tag">Google APIs</span>
+                </div>
+              </div>
+              <div class="experience">
+                <h3>Experience & Education</h3>
+                <div class="experience-item">
+                  <h4>Member</h4>
+                  <div class="company">NextTech Lab</div>
+                  <div class="period">September 2023 - Present</div>
+                  <p>
+                    Participate in weekly coding challenges and algorithmic
+                    problem-solving sessions. Assist in mentoring junior members
+                    on full-stack development projects.
+                  </p>
+                </div>
+                <div class="experience-item">
+                  <h4>Bachelor of Technology in Computer Science</h4>
+                  <div class="company">
+                    SRM University, Guntur, Andhra Pradesh
+                  </div>
+                  <div class="period">August 2023 - May 2027 (Expected)</div>
+                  <p>
+                    Relevant Coursework: Data Structures, Algorithms,
+                    Object-Oriented Programming (OOP), Database Management
+                    Systems
+                  </p>
+                </div>
+              </div>
+              <div class="connect" style="margin-top: 40px">
+                <h3>Connect With Me</h3>
+                <div
+                  class="social-links"
+                  style="display: flex; gap: 15px; margin-top: 15px"
+                >
+                  <a
+                    href="https://www.linkedin.com/in/saurabh-singh-959b48323"
+                    class="social-link"
+                    target="_blank"
+                  >
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a
+                    href="https://github.com/mrsingh1072"
+                    class="social-link"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/mr.singh1072/"
+                    class="social-link"
+                    target="_blank"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="projects-section">
+        <div class="container">
+          <div class="section-header">
+            <h2>My <span>Projects</span></h2>
+            <p>
+              Here are some of my recent projects that showcase my skills in
+              full-stack development, AI integration, and modern web
+              technologies
+            </p>
+          </div>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="/assets/hostel_management.png" alt="StudyGenie Project" />
+              </div>
+              <div class="project-info">
+                <h3> HostelEase: Smart Hostel Management System</h3>
+                <p>
+                  A dynamic hostel management solution designed for seamless student accommodation handling,
+                  reducing administrative workload by up to 60%. Features a dual-login system for admins and students,
+                  efficient room allocation, live booking updates, and real-time dashboard monitoring — ensuring smooth
+                  hostel operations with secure PHP backend and responsive web interface. <100ms latency.
+                </p>
+                <div class="project-tags">
+                  <span class="project-tag">PHP</span>
+                  <span class="project-tag">MySQL</span>
+                  <span class="project-tag">HTML</span>
+                  <span class="project-tag">CSS</span>
+                  <span class="project-tag">JavaScript</span>
+                  <span class="project-tag">Bootstrap</span>
+                </div>
+                <div class="project-links">
+                  <!--
+                  <a
+                    href="null"
+                    class="project-link"
+                    target="_blank"
+                    ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                  >
+                  -->
+                  <a
+                    href="https://github.com/mrsingh1072/hotel_management"
+                    class="project-link"
+                    target="_blank"
+                    ><i class="fab fa-github"></i> Source Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-image">
+                <img src="/assets/stock_market.png" alt="TrainBuddy Project" />
+              </div>
+              <div class="project-info">
+                <h3>📊 StockInsight: Real-Time Stock Market Visualizer</h3>
+                <p>
+                  A responsive stock market web application offering real-time price tracking 
+                  and interactive data visualization using dynamic JavaScript charts. Built with 
+                  PHP backend and live API integration, enabling seamless search and monitoring 
+                  of multiple stocks with &lt;200ms response time. Features clean UI design, 
+                  optimized API calls, and efficient data rendering for enhanced user experience.
+                </p>
+
+                <div class="project-tags">
+                  <span class="project-tag">HTML</span>
+                  <span class="project-tag">CSS</span>
+                  <span class="project-tag">JavaScript</span>
+                  <span class="project-tag">Python</span>
+                  <span class="project-tag">Flask</span>
+                  <span class="project-tag">Stock Market API</span>
+                  <span class="project-tag">Chart.js</span>
+                </div>
+                <div class="project-links">
+                  <!--
+                  <a
+                    href="https://trainbuddy.onrender.com/"
+                    class="project-link"
+                    target="_blank"
+                    ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                  >
+                  -->
+                  <a
+                    href="https://github.com/mrsingh1072/Stock_MARKET"
+                    class="project-link"
+                    target="_blank"
+                    ><i class="fab fa-github"></i> Source Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-image">
+                <img src="/assets/herbal_garden.png" alt="RunDown Project" />Herbal Garden by AYUSH
+              </div>
+              <div class="project-info">
+                <h3>Herbal Garden by AYUSH</h3>
+                <p>
+                  A digital herbal garden awareness platform promoting the benefits of medicinal plants and Ayurveda.
+                  Features a detailed plant database with information on health uses, scientific names, and benefits.
+                  Includes QR code scanning for plant identification and an interactive quiz module to enhance user engagement.
+                  Designed with a responsive interface and focused on improving community awareness through engaging, educational tools.
+                </p>
+                <div class="project-tags">
+                  <span class="project-tag">Flask</span>
+                  <span class="project-tag">HTML</span>
+                  <span class="project-tag">CSS</span>
+                  <span class="project-tag">avaScript</span>
+                  <span class="project-tag">Python</span>
+                  <span class="project-tag">Bootstrap</span>
+                </div>
+                <div class="project-links">
+                  <!--
+                  <a
+                    href="https://rundown-sx8n.onrender.com/"
+                    class="project-link"
+                    target="_blank"
+                    ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                  >
+                  -->
+                  <a
+                    href="https://github.com/mrsingh1072/sih2024_herbal-garden"
+                    class="project-link"
+                    target="_blank"
+                    ><i class="fab fa-github"></i> Source Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-image">
+                <img src="/assets/hotel.png" alt="Finlogix Personal Finance Manager" />
+              </div>
+              <div class="project-info">
+                <h3>HotelX: Console-Based Hotel Management System</h3>
+                <p>
+                   A simple hotel management system built using C++ with file handling operations,
+                   developed to manage bookings, customer records, and hotel services through a console-based interface.
+                   Implements menu-driven navigation with user authentication and efficient data storage using text files,
+                   ensuring fast performance without external databases.
+                </p>
+                <div class="project-tags">
+                  <span class="project-tag">C++</span>
+                  <span class="project-tag">File Handling</span>
+                  <span class="project-tag">Console Application</span>
+                  <span class="project-tag">Menu-Driven Interface</span>
+                  <!--<span class="project-tag">RESTful APIs</span>-->
+                </div>
+                <div class="project-links">
+                  <!--
+                  <a href="https://fin-logix.vercel.app" class="project-link">
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                  </a>
+                  -->
+                  <a href="https://github.com/mrsingh1072/hotel_management" class="project-link">
+                    <i class="fab fa-github"></i> Source Code
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-image">
+                <img src="/assets/real_time.png" alt="Forever Ecommerce Platform" />
+              </div>
+              <div class="project-info">
+                <h3>RoutePulse: Real-Time Route Tracking System</h3>
+                <p>
+                  A real-time route tracking application designed to monitor and visualize live movement
+                  of vehicles or users on an interactive map. Features location tracking, route plotting,
+                  and live updates using map APIs and backend services. Built with responsive design and real-time
+                  data handling for seamless performance across devices, ideal for logistics, delivery tracking, or travel monitoring.
+                </p>
+                <div class="project-tags">
+                  <span class="project-tag">HTML</span>
+                  <span class="project-tag">CSS</span>
+                  <span class="project-tag">JavaScript</span>
+                  <span class="project-tag">PHP</span>
+                  <span class="project-tag">Google Maps API</span>
+                  <span class="project-tag">Real-Time Tracking</span>
+                  <span class="project-tag">Responsive Design</span>
+                </div>
+                <div class="project-links">
+                  <!--
+                  <a
+                    href="https://forever-dl1q.onrender.com/"
+                    class="project-link"
+                    target="_blank"
+                  >
+                  -->
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/mrsingh1072/real_time_route_tracker"
+                    class="project-link"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i> Source Code
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Get in <span>Touch</span></h2>
+            <p>
+              I'm always open to discussing new opportunities, collaborations,
+              or just having a friendly chat about technology and development.
+            </p>
+          </div>
+          <div class="contact-container">
+            <div class="contact-card">
+              <h3 class="contact-card-title">Contact Information</h3>
+              <div class="contact-info-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-text">
+                  <strong>Location</strong>Guntur, Andhra Pradesh, India
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                <div class="contact-text">
+                  <strong>Email</strong>sarabhkumar08843@gmail.com
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                <div class="contact-text">
+                  <strong>Call Me</strong>+91 8709905612
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <div class="contact-icon">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="contact-text">
+                  <strong>Education</strong>SRM University, Guntur
+                </div>
+              </div>
+            </div>
+            <div class="contact-card">
+              <h3 class="contact-card-title">Follow Me</h3>
+              <p class="contact-text">Connect with me on social media</p>
+              <div class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/saurabh-singh-959b48323"
+                  class="social-link"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a
+                  href="https://github.com/mrsingh1072"
+                  class="social-link"
+                  target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/mr.singh1072/"
+                  class="social-link"
+                  target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  href="https://x.com/Mrsingh1072"
+                  class="social-link"
+                  target="_blank"
+                  ><i class="fab fa-twitter"></i
+                 ></a>   
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">Saurabh Kumar.</div>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="copyright">
+            &copy; 2025 Saurabh Kumar. All Rights Reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to Top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
