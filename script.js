@@ -27,10 +27,6 @@ themeToggle.addEventListener("click", () => {
   }
 });
 
-
-
-
-
 // Scroll progress indicator
 window.addEventListener("scroll", () => {
   const scrollProgress = document.getElementById("scroll-progress");
